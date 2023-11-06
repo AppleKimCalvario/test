@@ -2,6 +2,8 @@ from collections import defaultdict
 from datetime import datetime
 ct = datetime.now()
 
+#Test lang po
+
 formatted_time = ct.strftime("%Y-%m-%d %H:%M:%S")
 
 print(f"Current Time: {formatted_time}")
